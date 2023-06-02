@@ -6,7 +6,34 @@
 
 ## Latar Belakang
 
-Pada pelaksanaan program Virtual Internship Experience ini, peserta diberikan gambaran tentang bagaimana seorang Fullstack Developer bekerja di Investree. Peserta juga akan belajar bagaimana memecahkan masalah dan mengerjakan project yang sesuai dengan kegiatan perusahaan investree. Di awal, peserta dipaparkan terhadap beberapa materi reading dan video learning yang diharapkan bisa membantu peserta dalam memahami kembali kompetensi yang dibutuhkan oleh seorang Fullstack Deveoper sekaligus memahami bagaimana Investree menerapkan keilmuan tersebut. Kemudian peserta ditantang untuk menyelesaikan beberapa test untuk mereview pemahaman peserta dalam bidang fullstack. Terakhir, peserta akan dihadapkan kepada project akhir dimana peserta akan ditantang untuk mengimplementasikan segala keilmuan terkait development yang telah peserta kuasai sebelumnya. Nantinya pekerjaan peserta semua akan dinilai dan diberikan feedback oleh tim kami. 
+Framework Laravel menyediakan banyak fitur untuk developer yang bertujuan untuk memudahkan dalam membangun suatu aplikasi atau website salah satunya sebuah engine bawaan dari Laravel yaitu Blade Template. Dengan menggunakan engine ini, developer dapat dengan mudah membuat tampilan dinamis. Dengan menggunakan Blade Template kita juga dapat memanggil halaman view lain ke halaman utama dengan mudah. Laravel juga menyediakan service API untuk membantu dalam menghubungkan program dengan database yang ada di Investree.
+
+- Restful API menggunakan Laravel Passport 
+
+Tujuan : Membangun rest api dan oauth token menggunakan laravel framework serta laravel passport 
+
+
+1. Buatlah jwt authentication menggunakan laravel passport
+2. Kemudian buatlah restful api posts (create, list all, show detail, update & delete)
+3. Gunakan mekanisme middleware auth api passport ke endpoint posts (create, list all, show detail, update dan delete) 
+4. Gunakan prefix versi pada api yang telah dibuat (contoh : api/v1)
+5. Gunakan relasi eloquent pada table posts dan categories
+6. Gunakan pagination pada api list all posts
+7. Buatlah unit testing untuk setiap api posts
+8. Untuk table yang digunakan silahkan refer pada link ini https://docs.google.com/document/d/18vr7dMZNmxeiT_CS6ofRTik8YygBraRvl0vscNXpRbQ/edit?usp=sharing
+
+
+
+- Membangun Blog Sederhana Menggunakan laravel Blade serta Laravel UI
+
+Tujuan : Agar dapat menerapkan fitur blade serta laravel ui ke dalam project
+
+1. Buatlah fitur authentication menggunakan laravel UI
+2. Kemudian buatlah fungsional CRUD article serta category 
+3. Gunakan laravel blade untuk membuat templatenya
+4. Gunakan relasi laravel eloquent untuk menghubungkan relasi antar tabel
+5. Gunakan seeder untuk membuat sample user
+6. Unit testing setiap halaman crud dan fitur 
 
 ## Instalation
 
